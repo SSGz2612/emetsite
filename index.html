@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emet</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logoContainer"><div class="logo"></div></div>
+
+        <div class="menuContainer">
+            <div class="menu">
+                <a class="btn1" href="#">що це</a>
+                <a class="btn2" href="#">для кого</a>
+                <a class="btn3" href="#">переваги</a>
+                <a class="btn4" href="#">можливості</a>
+                <a class="btn5" href="#">уточнити деталі</a>
+            </div>
+    
+            <div class="principalBtn">
+                <a href="#">замовити послугу</a>
+            </div>
+        </div>
+
+        <div class="menuContainerPhone" onclick="openNav()">&#9776;</div>
+    </nav>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">що це</a>
+            <a href="#">для кого</a>
+            <a href="#">переваги</a>
+            <a href="#">можливості</a>
+            <a href="#">уточнити деталі</a>
+        </div>
+    </div>
+
+    <header>
+        <div class="headContainer">
+            <div class="headerTxt">емет - робот-оператор. комунікації нового покоління</div>
+            <span>Emet поговорить із клієнтом, автоматично зафіксує інформацію, сформує звіт та передасть відповідальному співробітнику на обробку у готовому вигляді</span>
+            
+            <div class="headerBtn">
+                <a href="#">замовити послугу</a>
+            </div>
+        </div>
+
+        <div class="headTxtDraw">
+            <div class="headTxt1"></div>
+            <div class="headTxt2"></div>
+            <div class="headTxt3"></div>
+        </div>
+    </header>
+
+    <section class="sectionSet1">
+        <div class="sectionSet">як використовувати<span class="sectionSetDot">.</span></div>
+
+        <div class="setionSetContainer">
+            <div class="listContainer">
+                <span>система EMET дозволяє повністю імітувати людину у телефонних розмовах</span>
+                
+                <div class="imgContainerPhone">
+                    <div class="robotImg"></div>
+                </div>
+                
+                <ul>
+                    <li>Робот звільняє операторів для складніших завдань</li>
+                    <li>EMET миттєво масштабується під ваші потреби. На відміну від операторів, він не обідає/не хворіє/не ходить у відпустку, а найм та навчання йому не потрібно – все, що потрібно, він вже має</li>
+                    <li>Робот не робить помилок. Він завжди правильно відпрацює закладений у нього скрипт</li>
+                    <li>Не злиться і не нервує. 5 спроб або 10 – він виконає та повторить все, що потрібно</li>
+                    <li>EMET кмітливий – він може говорити цифри та дати, вулиці та імена та читати прізвища. 
+                        А ще він вміє розуміти та запам’ятовувати відповіді!</li>
+                    <li>Завдяки точній транскрибації голосу в текст, ви зможете вирішити багато завдань бізнесу</li>
+                </ul>
+            </div>
+
+            <div class="imgContainer">
+                <div class="robotImg"></div>
+            </div>
+        </div>
+        <div class="sectionSet"></div>
+    </section>
+
+    <section class="sectionSet2">
+        <div class="sectionSet2Txt">приклад застосування Emet</div>
+        <div class="sectionSet2PrincipalTxt">клієнти, які спілкуються з EMET’ом, <span class="sectionSet2txtColor">не можуть відрізнити</span> його <span class="sectionSet2txtColor2">від живого оператора</span></div>
+        
+        <audio controls>
+            <source src="" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section class="sectionSet3">
+        <div class="sectionSet">області застосування EMET<span class="sectionSet3Dot">.</span></div>
+        <div class="sectionSet3PrincipalTxt"><span class="sectionSet3txtColor">ЕМЕТ</span>. Система-робот із високим рівнем «людяності» з легкістю <span class="sectionSet3txtColor2"> розвантажить або замінить </span> операторів Call-центру допоможе вам <span class="sectionSet3txtColor"> проконтролювати та проаналізувати </span> роботу операторів
+        </div>
+
+        <div class="containerCards">
+            <div class="cards">
+                <div class="icon iconPhone"></div>
+                <div class="cardsTitle">ПРИЙМАННЯ ЗАМОВЛЕНЬ АБО ПРОДАЖІ</div>
+                <div class="cardsTxt">Ви можете автоматизувати холодні дзвінки або отримання замовлень, доручивши додзвон та первинну пропозицію ЕМЕТУ</div>
+            </div>
+            <div class="cards">
+                <div class="icon iconAudio"></div>
+                <div class="cardsTitle">АКТУАЛІЗАЦІЯ ДАНИХ І ДОВІДКА, ПІДТРИМКА КЛІЄНТІВ</div>
+                <div class="cardsTxt">Ці завдання вирішуються за допомогою розпізнавання голосу. У будь-якому часовому поясі робота завжди виконана «на відмінно». База відповідей доступна до розвантаження у зручному форматі</div>
+            </div>
+            <div class="cards">
+                <div class="icon iconWatch"></div>
+                <div class="cardsTitle">КОНТРОЛЬ І АНАЛІЗ РОБОТИ ЖИВИХ ОПЕРАТОРІВ</div>
+                <div class="cardsTxt">В Call-центр, відділі продажу, технічній підтримці, відділі контролю якості чи службі безпеки</div>
+            </div>
+            <div class="cards">
+                <div class="icon iconMegaphone"></div>
+                <div class="cardsTitle">ІНФОРМУВАННЯ АБО ЗАЛУЧЕННЯ</div>
+                <div class="cardsTxt">Сповіщення про заборгованість, інформування про нові продукти або зміну в розкладі роботи – та робота з якою робот справляється найкраще</div>
+            </div>
+            <div class="cards">
+                <div class="icon iconMail"></div>
+                <div class="cardsTitle">РОЗПІЗНАННЯ МОВИ</div>
+                <div class="cardsTxt">Система постійно оцінює великий діапазон стану бесіди, веде розмову, майже не відрізняється від людини</div>
+            </div>
+            <div class="cards">
+                <div class="icon iconFace"></div>
+                <div class="cardsTitle">ОПИТУВАННЯ й АНКЕТУВАННЯ</div>
+                <div class="cardsTxt">Відмінний інструмент для продуктивної, індивідуальної, і, якщо необхідно, знеособленої роботи з клієнтом</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionSet4">
+        <div>безперечні переваги ЕМЕТА перед живими операторами</div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+
+    <section class="sectionSet5">
+        <div>які проблеми вирішує</div>
+        <div>
+            <div>
+                <div>Пошук проблемних діалогів</div>
+                <div>Знаходьте проблеми за ключовими словами або відхилення кількісних параметрів від норми</div>
+            </div>
+            
+            <div>
+                <div>Аналіз роботи операторів</div>
+                <div>Контролюйте операторів, у розмовах із якими клієнти зазнають складнощів</div>
+            </div>
+
+            <div>
+                <div>Пошук точок зростання</div>
+                <div>Клієнти самі розповідають про свої проблеми та побажання</div>
+            </div>
+            
+            <div>
+                <div>Підвищення дисципліни</div>
+                <div>Оператори починають працювати краще, коли знають, що дзвінки аналізуються</div>
+            </div>
+
+            <div>
+                <div>Зниження непрофільного навантаження</div>
+                <div>Аналізуйте причини затягнутих розмов, систематизуйте теми звернень</div>
+            </div>
+            
+            <div>
+                <div>Скорочення кількості повторних звернень</div>
+                <div>Розширюйте скрипти операторів та базу знань компанії на основі даних із діалогів</div>
+            </div>
+
+            <div>
+                <div>Захист від витоків інформації</div>
+                <div>Знаходьте загрози відведення клієнтів за ключовими словами: «Відправлю номер», «Запишіть номер», «Перезвоню з мобільного» і т.д.</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionSet6">
+        <div>безперечні переваги ЕМЕТА перед живими операторами</div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+
+    <section class="sectionSet7">
+        <div>
+            <button>замовити послугу</button>
+            <button>уточнити деталі</button>
+        </div>
+    </section>
+
+    <section class="sectionSet8">
+        <div></div>
+        <div>
+            <form action="">
+                <label for="">Имя</label>
+                <input type="text">
+
+                <label for="">Компания</label>
+                <input type="text">
+
+                <label for="">Номер телефона</label>
+                <input type="text">
+
+                <label for="">Email</label>
+                <input type="text">
+
+                <label for="">Ваш вопрос</label>
+                <input type="text">
+
+                <div>відправити</div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logoContainer"><div class="logo"></div></div>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+</html>
