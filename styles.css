@@ -388,7 +388,7 @@ audio {
 .cards {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 20px 0px;
     width: 250px;
     min-height: 250px;
     height: auto;
@@ -447,6 +447,312 @@ audio {
     margin: 15px 0;
 }
 
+.sectionSet4 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    min-height: 900px;
+    height: auto;
+    background-color: #212121;
+}
+
+.containerCards2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.containerBlock {
+    display: flex;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    margin: 20px;
+    width: 235px;
+    height: 235px;
+    background-color: #77C8D0;
+    border-radius: 7px;
+    z-index: 3;
+}
+
+.cards2Txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    width: 180px;
+    height: auto;
+}
+
+.cards2HTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    width: 85%;
+    height: auto;
+}
+
+.cards2H {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 20px;
+    width: 235px;
+    height: 235px;
+    border: 5px solid #77C8D0;
+    
+    /* border-image: linear-gradient(180deg, blue, #77C8D0);
+    border-image-slice: 1; */
+    border-radius: 7px;
+
+    border: double 1px transparent;
+    background-image: linear-gradient(#212121, #212121),
+    linear-gradient(135.57deg, #5A31F5, #77C8D0);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    z-index: 2;
+}
+
+.cards2:hover {
+    z-index: 1;
+}
+
+.cards2H:hover {
+    background-image: linear-gradient(#180c42, #132122),
+    linear-gradient(135.57deg, #5A31F5, #77C8D0);
+    z-index: 4;
+}
+
+.sectionSet5 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerBlock3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerCards3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.cards3Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    color: #77C8D0;
+    font-family: GilroyExtraBold;
+    width: 427px;
+    height: 62px;
+    margin: 5px 5px 0 5px;
+    border-bottom: 2px solid white;
+    border-radius: 7px 7px 0 0;
+}
+
+.cards3Cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 427px;
+    height: 180px;
+    margin: 0px 5px 5px 5px;
+    border-radius: 0 0 7px 7px;
+}
+
+.TxtContent {
+    display: flex;
+    width: 90%;
+}
+
+.sectionSet6 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    margin: 20px;
+    width: 235px;
+    height: 235px;
+    background-color: #5A31F5;
+    border-radius: 7px;
+    z-index: 3;
+}
+
+.cards3H {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 20px;
+    width: 235px;
+    height: 235px;
+    border: 5px solid #77C8D0;
+    
+    /* border-image: linear-gradient(180deg, blue, #77C8D0);
+    border-image-slice: 1; */
+    border-radius: 7px;
+
+    border: double 1px transparent;
+    background-image: linear-gradient(aliceblue, aliceblue),
+    linear-gradient(135.57deg, #5A31F5, #77C8D0);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    z-index: 2;
+}
+
+.cards3HTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: black;
+    width: 85%;
+    height: auto;
+}
+
+.cards3:hover {
+    z-index: 1;
+}
+
+.cards3H:hover {
+    z-index: 4;
+}
+
+.sectionSet7 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 264px;
+    height: auto;
+    background-color: #212121;
+}
+
+.sectionSetB {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.contentBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sectionSet8 {
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.contentFormTitle {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+}
+
+.contentForm {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+
+.contentForm label {
+    font-size: 16px;
+    margin: 40px 0 20px 0;
+}
+
+.contentForm input {
+    width: 80%;
+    height: 44px;
+    border-radius: 7px;
+
+    border: double 1px transparent;
+    background-image: linear-gradient(white, white),
+    linear-gradient(135.57deg, #5A31F5, #77C8D0);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.fotmBtn {
+    display: flex;
+}
+
+.formBtn a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5A31F5;
+    width: 171px;
+    height: 44px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.formTxt {
+    font-family: GilroyExtraBold;
+    width: 80%;
+    font-size: 96px;
+}
+
+.familyColor1 {
+    color: #5A31F5;
+    font-family: GilroyExtraBold;
+}
+
+.familyColor2 {
+    color: #77C8D0;
+    font-family: GilroyExtraBold;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -462,6 +768,10 @@ footer {
     .headContainer span {
         font-size: 30px;
     }
+
+    .containerCards2 {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 900px){
@@ -472,6 +782,34 @@ footer {
     .sectionSet2PrincipalTxt {
         font-size: 36px;
     }
+
+    .contentBtn {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .containerCards2 {
+        width: 80%;
+    }
+
+    .containerCards3 {
+        justify-content: center;
+    }
+
+    form {
+        width: 80%;
+    }
+    
+    .contentFormTitle {
+        width: 100%;
+    }
+    
+    .contentForm {
+        align-items: center;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1100px){
@@ -481,6 +819,10 @@ footer {
 
     .menuContainerPhone {
         display: flex;
+    }
+
+    .formTxt {
+        font-size: 32px;
     }
 }
 
